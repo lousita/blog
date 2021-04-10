@@ -1,0 +1,85 @@
+body {
+	background-color: rgb(251, 250, 255); /*background-color permet de changer la couleur de fond de nos éléments  */
+	font-family:cursive; /* font-family permet de changer la police de notre site, c'est-à dire le style d'écriture. On peut chooisir plusieurs valeurs entre serif, sans-serif, cursive et monospace*/
+	font-size: 16px; /*permet de modifier la taille des lettres */
+	line-height: 20px;/* permet de modifier l'espace qu'il y a entre deux lignes de textes*/
+	text-align:left;/*possibilité de changer la place d'un texte, soit au centre avec la valeur center, soit à gauche avec la valeur left ou soit à droite avec la valeuer right */	
+}
+
+
+h1 {
+	color : rgb(26, 40, 107);
+	font-family:cursive;
+	font-variant:small-caps;/*font-variant, avec pour valeur small-caps, permet de transformer toutes les lettres en petites majuscules */
+	letter-spacing: 0,7px;/* permet d'augmenter l'espace entre les lettres*/
+	text-align:center;
+
+}
+
+
+h2 {
+	color : #504ac2; /*color permet de changer la couleur de notre texte. On pourra utiliser le nom anglais d'une couleur, son code hexadécimal #,ou encore le code RGB.*/
+	font-weight:lighter; /*permet de modifier l'épaisseur des lettres : lighter pour les affiner et bolder pour les épaissir*/
+
+}
+
+
+h3 {
+	color : #504ac2;
+	font-weight:lighter;
+	border:dashed;
+	border-width:3px;
+	border-color:rgb(26,40, 107);
+	margin:25px 200px; 
+	padding: 20px;
+	font-variant:small-caps;
+	letter-spacing: 0,7px;
+	text-align:center;
+	border-radius:15px;
+	box-shadow: 5px 8px 12px rgb(26,40, 107);
+}
+
+
+a {
+	color:rgb(26, 40, 107);
+	text-decoration:none; /* le code text-decoration avec valeur none permet de supprimer la barre de soulignement présente en dessous du format par défaut des liens*/
+}
+
+
+
+
+
+div{
+
+	border-width:3px;
+	border-color:rgb(26,40, 107);
+	margin:25px 200px; /*correspond à la marge extérieur*/
+	padding: 20px;/*correspond à la marge intérieur */
+	border-radius:15px; /*permet d'arrondir les angles de nos bords */
+	box-shadow: 10px 15px 20px rgb(26,40, 107);/* permet d'ajouter une ombre à nos éléments*/
+}
+
+iframe{
+	border-radius:10px
+}
+
+img{
+	border-radius:10px
+}
+
+.vert {
+	color:#6b6bc9;
+
+}
+.jaune {
+	color:#00004a;
+}
+
+.lol{
+	text-align:center; 
+}
+
+a:hover { /* possibiliter de modifier la couleur de notre lien lorsqu'on passe notre souris dessus*/
+	color:rgb(100, 103, 245);}
+
+.lien{font-weight:bolder;}
